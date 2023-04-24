@@ -1,0 +1,35 @@
+.container {
+    width: min(100% - 48px, 1170px);
+    margin-inline: auto;
+}
+.btn {
+    --width: 104rem;
+    --height: 44rem;
+    display: inline-flex;
+    padding-inline: 10rem;
+    align-items: center;
+    justify-content: center;
+    background: #2e80ce;
+    color: white;
+    font-size: 18rem;
+    min-width: var(--width);
+    min-height: var(--height);
+    border-radius: 999px;
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    -ms-border-radius: 999px;
+    -o-border-radius: 999px;
+}
+.section-title {
+    font-weight: 600;
+    font-size: 50rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #10375c;
+}
+.section-desc {
+    font-weight: 300;
+    font-size: 18rem;
+    line-height: 1.67;
+    color: #575f66;
+}
